@@ -456,11 +456,12 @@ a {
     .trainer__grid {
       grid-template-columns: repeat(0, 1fr);
     }
+  }
+  @media (width < 600px) {
+    .trainer__card img {
+      width: 40vh;
 
-    
-
-
-
+  }
   }
 
   @media (width > 768px) {
@@ -743,7 +744,7 @@ a {
 }
 
 .gallery__grid img{
-  width: 15vh;
+  width: 13vh;
   transition: 0.2s;
 }
 .gallery__grid img:hover{
