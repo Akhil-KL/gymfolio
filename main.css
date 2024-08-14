@@ -775,7 +775,7 @@ a {
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
   border:1px solid rgba(255, 255, 255, 0.18);
-  padding: 10vh 2vh ;
+  padding: 10vh 15vh 10vh 3vh ;
 }
 
 
@@ -789,6 +789,9 @@ a {
     position: relative;
     aspect-ratio: 16/9;
 
+  }
+  .lastline{
+    padding: 10vh 10vh 10vh 2vh ;
   }
 
 }
