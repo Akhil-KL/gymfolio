@@ -572,6 +572,8 @@ a {
   margin-top: 2rem;
   padding-bottom: rem;
   width: 100%;
+  position: relative;
+  aspect-ratio: 16/9;
 
 }
 
@@ -623,7 +625,7 @@ a {
 }
 
 .swiper-pagination-bullet-active {
-  background: #d2a213;
+  background-color: #d2a213;
 }
 
 
