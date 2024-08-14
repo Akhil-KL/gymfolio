@@ -762,10 +762,11 @@ a {
   width: 13vh;
   transition: 0.2s;
 }
+/*
 .gallery__grid img:hover{
   transform: scale(2);
 
-}
+}*/
 
 .lastline{
 
@@ -793,9 +794,9 @@ a {
 }
 
 @media (width < 600px) {
-  .leftpanal:hover{
+  /*.leftpanal:hover{
     margin-left: 7vh;
-  }
+  }*/
 
   .footer__container {
     grid-template-columns: repeat(1, 1fr);
