@@ -456,7 +456,14 @@ a {
     .trainer__grid {
       grid-template-columns: repeat(0, 1fr);
     }
+    .trainer__card img {
+      width: 45vh;
+      position: relative;
+      margin-left: 25%;
+    }
   }
+
+
   @media (width < 600px) {
     .trainer__card img {
       width: 40vh;
@@ -471,6 +478,12 @@ a {
       justify-content: center;
 
     }
+    .trainer__card img {
+      width: 60vh;
+      margin-left: 0px;
+
+  }
+
 
   }
   
@@ -771,6 +784,11 @@ a {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .swiper {
+    position: relative;
+    aspect-ratio: 16/9;
+
+  }
 
 }
 
@@ -790,11 +808,22 @@ a {
   .price__grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .swiper {
+    position: relative;
+    aspect-ratio: 1/1;
+
+  }
 }
 
 @media (width > 768px) {
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .swiper {
+    position: relative;
+    aspect-ratio: 40/9;
+
   }
 }
 
