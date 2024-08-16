@@ -405,11 +405,15 @@ a {
 
 .trainer__grid {
     margin-top: 4rem;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 1rem;
 }
   
 .trainer__card img {
+    max-width: 400px;
     margin-bottom: 1rem;
     width: 60vh;
     display: flex;
@@ -453,13 +457,9 @@ a {
   
   
   @media (width > 540px) {
-    .trainer__grid {
-      grid-template-columns: repeat(0, 1fr);
-    }
+
     .trainer__card img {
       width: 45vh;
-      position: relative;
-      margin-left: 25%;
     }
   }
 
@@ -472,15 +472,9 @@ a {
   }
 
   @media (width > 768px) {
-    .trainer__grid {
-      grid-template-columns: repeat(4, 1fr);
-      display: flex;
-      justify-content: center;
 
-    }
     .trainer__card img {
       width: 60vh;
-      margin-left: 0px;
 
   }
 
