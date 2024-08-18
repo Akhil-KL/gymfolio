@@ -291,7 +291,7 @@ a {
     font-size: 2rem;
     font-weight: 600;
     font-family: var(--header-font);
-    color: var(--text-dark);
+    color: white;
     text-align: center;
   }
   
@@ -340,7 +340,7 @@ a {
     font-size: 1.2rem;
     font-weight: 600;
     font-family: var(--header-font);
-    color: var(--text-dark);
+    color: white;
   }
   
   .about__card h4::before {
@@ -349,7 +349,7 @@ a {
     left: 0;
     font-size: 6rem;
     line-height: 6rem;
-    color: var(--text-dark);
+    color: white;
     opacity: 0.1;
     z-index: -1;
   }
@@ -427,7 +427,7 @@ a {
     font-size: 1.5rem;
     font-weight: 500;
     font-family: var(--header-font);
-    color: var(--text-dark);
+    color: white;
     text-align: center;
 }
   
@@ -558,13 +558,14 @@ a {
   color: var(--secondary-color);
 }
 
-.price__btn:hover {
+.price__btn:active {
   color: var(--white);
   background-color: var(--secondary-color);
   transform: translateY(-10px);
+  transform: scale(0.96);
 }
 
-.price__btn:hover a{
+.price__btn a:active{
   color: var(--white);
 }
 
@@ -616,7 +617,7 @@ a {
 .client__card h4 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: white;
 }
 
 .swiper-pagination-bullet {
@@ -713,7 +714,7 @@ a {
   padding-inline: 1rem;
   outline: none;
   border: none;
-  color: var(--text-dark);
+  color: white;
 }
 
 .footer__socials {
@@ -815,7 +816,7 @@ a {
 
 @media (width > 768px) {
   .footer__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .swiper {
