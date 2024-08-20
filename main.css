@@ -638,7 +638,7 @@ a {
 
 
 .swiper-pagination-bullet-active {
-  background: var(--swiper-pagination-color,white);
+  background: white;
 }
 
 
