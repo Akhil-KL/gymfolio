@@ -163,10 +163,11 @@ a {
     right: 0;
   }
   
-  .header__content h5 {
+  .header__content h4 {
     margin-bottom: 1rem;
-
-    font-weight: 600;
+    font-size: 0.85REM;
+    font-weight: 900;
+    text-shadow: 0PX 0PX 5px rgb(0, 0, 0);
     color: var(--secondary-color);
   }
   
