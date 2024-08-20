@@ -634,6 +634,7 @@ a {
 
 .swiper-pagination-bullet {
   box-shadow: 0px 1px 10px white; 
+  border: solid rgb(255, 255, 255);
 }
 
 
@@ -814,7 +815,7 @@ a {
   }
   .swiper {
     position: relative;
-    aspect-ratio: 1/1;
+    aspect-ratio: 15/14;
   }
   
 }
