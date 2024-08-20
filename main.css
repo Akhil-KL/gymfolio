@@ -398,7 +398,7 @@ a {
 
 
 #trainer{
-  background-image: url(DBHAND.JPG);
+  background-image: url(girl.jpg);
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -419,7 +419,7 @@ a {
     display: flex;
     justify-content: center;
     border: solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px rgb(211, 211, 211);
     border-radius: 2vh;
 }
   
@@ -774,7 +774,7 @@ a {
 }
 
 
-@media (width > 540px) {
+@media (width > 600px) {
 
 
   .footer__container {
@@ -788,6 +788,9 @@ a {
   .lastline{
     padding: 10vh 10vh 10vh 2vh ;
   }
+  .gallery__grid img{
+    width: 9vh;
+  }
 
 }
 
@@ -799,10 +802,7 @@ a {
   .footer__container {
     grid-template-columns: repeat(1, 1fr);
   }
-  /*abs*/
-  #trainer{
-    background-image: url(DBHAND-PH.JPG);
-  }
+
   
   .price__grid {
     grid-template-columns: repeat(1, 1fr);
@@ -810,8 +810,8 @@ a {
   .swiper {
     position: relative;
     aspect-ratio: 1/1;
-
   }
+  
 }
 
 @media (width > 768px) {
@@ -821,11 +821,23 @@ a {
 
   .swiper {
     position: relative;
+    aspect-ratio: 16/9;
+
+  }
+
+}
+
+@media (width > 1000px) {
+  .gallery__grid img{
+    width: 20vh;
+  }
+  .swiper {
+    position: relative;
     aspect-ratio: 40/9;
 
   }
+  
 }
-
 
 
 
