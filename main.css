@@ -304,6 +304,25 @@ a {
     color: var(--text-light);
   }
   
+  .header__socials {
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header__socials a {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #1f2125;
+    border-radius: 100%;
+    &:active{
+      color: var(--secondary-color-dark);
+      background-color: black;
+    }
+  }
+  
 
 
 #about{
@@ -729,6 +748,7 @@ a {
 }
 
 .footer__socials {
+  margin-top: 1.5vh;
   display: flex;
   align-items: center;
   gap: 1rem;
